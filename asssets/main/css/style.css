@@ -58,6 +58,37 @@
     font-size: 57px;
   }
 
+
+  .d_test  {
+    color:var(--grey);
+  }
+
+  .home_btn {
+    padding: 8px 20px;
+    color: var(--grey);
+    border: 2px solid var(--grey);
+    border-radius: 4px;
+    text-decoration: none;
+    transition:0.4s;
+
+  }
+
+  .home_btn:hover {
+    background-color: var(--grey);
+    color: #fff;
+  }
+  
+
+  .home_link {
+    color: var(--grey);
+    text-decoration: none;
+    padding:8px 20px;
+  }
+
+  .home_link :hover {
+    color: #000;
+  }
+
   
 
     /*--------------------- Home  Section End --------------------*/
