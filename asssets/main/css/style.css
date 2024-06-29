@@ -1,0 +1,76 @@
+/* roboto-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/roboto-v30-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+  }
+
+
+  :root {
+    --grey: #3C4043;
+    --bg-color: #F8F9FA;
+    --pampas: #E9E3DB;
+  }
+
+  body {
+    font-family: 'Roboto' Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+
+
+
+    /*--------------------- Home  Section Begin --------------------*/
+  .bg_alert {
+    background-color: #1967D2;
+    text-align: center;
+    border-radius: 0;
+    color: #fff;
+    margin: 0;
+  }
+
+
+  .my_navbar .nav-link {
+    color: var(--grey);
+  }
+
+
+  .my_navbar .nav-link:hover {
+    color: #000;
+  }
+
+  .home_bg {
+    background: url("../images/home.png");
+    width: 100%;
+    height:calc(100vh - 122px);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
+  }
+
+  .home_title {
+    color: var(--grey);
+    font-size: 57px;
+  }
+
+  
+
+    /*--------------------- Home  Section End --------------------*/
+
+
+
+    @media screen and (max-width: 768px) {
+      .home_bg {
+        background-size: cover;
+        background-position: right;
+      }
+
+    }
+
+
+  
